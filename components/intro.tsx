@@ -18,6 +18,7 @@ export default function Intro() {
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: "tween" }}
           >
             <Image
               src={portrait}
