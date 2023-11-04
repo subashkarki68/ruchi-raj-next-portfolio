@@ -31,9 +31,10 @@ export default function Intro() {
           </motion.div>
           <motion.span
             className="absolute text-4xl bottom-2 right-2"
-            initial={{ rotate: 0 }}
+            initial={{ rotate: 0, opacity: 0 }}
             animate={{
               rotate: waveMotion.rotate,
+              opacity: 1,
               transition: {
                 duration: waveMotion.transition.duration,
                 repeat: waveMotion.transition.repeat,
