@@ -11,7 +11,7 @@ export default function Header() {
         className="flex items-center justify-between bg-white w-full min-h-[4.5rem] 
       rounded-none border border-white border-opacity-40 
       bg-opacity-40 shadow-lg shadow-black/[0.1] fixed
-      backdrop-blur-2xl left-1/2 -translate-x-1/2 top-0 sm:top-6 sm:h-[3rem] sm:w-[36rem] sm:rounded-full"
+      backdrop-blur-xl sm:backdrop-blur-md left-1/2 -translate-x-1/2 top-0 sm:top-6 sm:h-[3rem] sm:w-[36rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       >
