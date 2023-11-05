@@ -51,7 +51,7 @@ export default function Intro() {
       </div>
       {/* Intro and Description */}
       <motion.div
-        className="w-[80%]  text-center my-4 sm:w-1/2"
+        className="w-[80%]  text-center my-8 sm:w-1/2"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -67,7 +67,7 @@ export default function Intro() {
           . {introDescData.description}
         </p>
         {/* Technologies Icon */}
-        <div className="flex items-center justify-center gap-8 my-4 text-4xl ">
+        <div className="flex items-center justify-center gap-8 my-10 text-4xl ">
           <FaReact className="text-[#61dafb]" />
           <SiNextdotjs />
           <SiExpress />
