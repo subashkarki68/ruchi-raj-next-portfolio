@@ -32,6 +32,15 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
+export const introDescData = {
+  greeting: "Hello,",
+  introduction: {
+    role: "aspiring Full Stack Web Developer",
+    name: "Ruchi Raj Karki",
+  },
+  description:
+    "Passionate about creating user-friendly and responsive web applications. Proficient in HTML, CSS, JavaScript, and TypeScript. Experienced in working with both front-end and back-end frameworks such as React, Next.js, and Express.js.",
+};
 
 export const experiencesData = [
   {
