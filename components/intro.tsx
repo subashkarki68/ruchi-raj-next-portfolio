@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import portrait from "@/public/images/subashpp.jpg";
+import portrait from "@/public/images/subashpp.jpeg";
 import { introDescData } from "@/lib/data";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs, SiExpress } from "react-icons/si";
+import CTA from "./cta";
 
 export default function Intro() {
   const waveMotion = {
@@ -67,12 +68,13 @@ export default function Intro() {
           . {introDescData.description}
         </p>
         {/* Technologies Icon */}
-        <div className="flex items-center justify-center gap-8 my-10 text-4xl ">
+        <div className="flex items-center justify-center gap-8 mt-10 mb-4 text-4xl ">
           <FaReact className="text-[#61dafb]" />
           <SiNextdotjs />
           <SiExpress />
         </div>
       </motion.div>
+      <CTA />
     </section>
   );
 }
