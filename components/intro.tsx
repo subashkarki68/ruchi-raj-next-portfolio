@@ -56,7 +56,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <p className="text-lg text-gray-800">
-          {introDescData.greeting} I'm{" "}
+          {introDescData.greeting} I&apos;m{" "}
           <strong className="text-2xl font-bold text-violet-600">
             {introDescData.introduction.name}
           </strong>
