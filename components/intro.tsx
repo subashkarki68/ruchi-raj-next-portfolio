@@ -74,7 +74,13 @@ export default function Intro() {
           <SiExpress />
         </div>
       </motion.div>
-      <CTA />
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+      >
+        <CTA />
+      </motion.div>
     </section>
   );
 }
